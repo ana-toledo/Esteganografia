@@ -20,11 +20,21 @@ Para compilar o codificador (`codifica.c`):
 
 ```bash
 gcc -o codifica codifica.c -ljpeg
-
+```
 Para esconder uma mensagem em uma imagem PPM:
 ```bash
 ./codifica input.jpeg output.ppm "Mensagem secreta"
+```
 
 ### Decodificador
 
 Para compilar o decodificador(`decodifica.c`);
+
+```bash
+gcc -o decodifica decodifica.c
+```
+Para extrair a mensagem de uma imagem PPM:
+
+```bash
+./decodifica foto_com_mensagem.ppm mensagem.txt
+```
