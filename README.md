@@ -12,14 +12,18 @@ Para compilar e executar os programas, você precisará de:
 - Um compilador C (por exemplo, `gcc`).
 - Biblioteca **libjpeg** (se necessário para conversões JPEG para PPM).
 
-## Compilação
+## Uso
 
 ### Codificador
 
 Para compilar o codificador (`codifica.c`):
 
 ```bash
-gcc -o encode_steganography encode_steganography.c -ljpeg
+gcc -o codifica codifica.c -ljpeg
+
+Para esconder uma mensagem em uma imagem PPM:
+```bash
+./codifica input.jpeg output.ppm "Mensagem secreta"
 
 ### Decodificador
 
