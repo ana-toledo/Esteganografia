@@ -1,3 +1,19 @@
+/*
+Aluna: Ana Júlia Lima Tolêdo
+Disciplina: Algoritmos e Estruturas de Dados II
+
+Esse arquivo esconde uma mensagem em uma imagem ao alterar o LSB de seus bytes
+
+Biblioteca para descomprimir o jpg: libjpeg
+
+Após a compilação, execute com: ./codifica input.jpeg output.ppm "Mensagem secreta"
+
+-----------------------------------
+Mais informações no documento READMR.md
+
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

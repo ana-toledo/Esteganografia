@@ -1,3 +1,17 @@
+/*
+Aluna: Ana Júlia Lima Tolêdo
+Disciplina: Algoritmos e Estruturas de Dados II
+
+Esse arquivo esconde uma mensagem em uma imagem ao alterar o LSB de seus bytes
+
+Após a compilação, execute com: ./decodifica foto_com_mensagem.ppm mensagem.txt
+
+-----------------------------------
+Mais informações no documento READMR.md
+
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
